@@ -1,0 +1,85 @@
+.navbar
+{
+    border-bottom: #1886c7 1px solid;
+}
+.nav-link
+{
+    font-size: medium !important;
+
+}
+
+.nav-link:hover
+{
+    color: #1886c7 !important;
+    border-bottom: 3px solid #1886c7 !important;
+}
+
+.dropdown-menu
+{
+    border-right: none !important;
+    border-bottom: none !important;
+    border-top: none !important;
+    border-left: 1px solid #1886c7;
+    border-radius: 0px !important;
+}
+.dropdown-item
+{
+    font-size: medium !important;
+    transition: 0.5s ease;
+}
+.dropdown-item:hover
+{
+    color: #1886c7 !important;
+    background-color: #343A40;
+    border-bottom: 1px solid #1886c7 !important;
+    border-radius: 50px;
+}
+
+#rockInfo h3, i
+{
+    color: #1886c7;
+}
+#rockInfo h3:hover, i:hover
+{
+    color: #0f4b6e;
+}
+
+#rockInfo
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/rockinfo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 70vh;
+
+}
+
+p
+{
+    text-indent:40px;
+}
+
+.nav-link, .dropdown-item
+{
+    font-size: 14.5px;
+}
+
+
+.headersection
+{
+    background: url('../img/Anadolsk.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 70vh;
+    border-radius: 20px;
+}
+.headersection .overlay
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.headersection .row
+{
+    height: 70vh;
+}
+
+
+
